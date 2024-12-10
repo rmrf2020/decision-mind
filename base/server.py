@@ -140,11 +140,11 @@ def main() -> None:
     async def fetch_tool(
             name: str, arguments: dict
     ) -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
-        if name == "Fetch Website Content":
+        if name == "Fetch":
             if "url" not in arguments:
                 raise ValueError("Missing required parameter 'url'")
             return await fetch_website(arguments["url"])
-        elif name == "Server Time":
+        elif name == "Time":
             return await fetch_time()  # Call fetch_time method
         elif name == "System Info":
             return await get_system_info()
