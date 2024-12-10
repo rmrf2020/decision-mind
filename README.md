@@ -24,7 +24,7 @@ A demonstration project implementing the Model Context Protocol (MCP), showcasin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/decision-mind.git
+git clone https://github.com/rmrf2020/decision-mind.git
 cd decision-mind
 ```
 
