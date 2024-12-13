@@ -26,7 +26,7 @@ async def client_logic():
             # List available tools
             tools = await session.list_tools()
             print("Available Tools:", tools, end="\n\n")
-            result = await session.call_tool("System Info", {})
+            result = await session.call_tool("Fetch", {"url": "https://example.com"})
             print("Tools Call Result:", result, end="\n\n")
 
 
