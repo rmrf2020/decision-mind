@@ -22,3 +22,4 @@ typing_extensions==4.12.2
 uvicorn==0.32.1
 
 requests~=2.32.3
+alist3~=1.3.3
